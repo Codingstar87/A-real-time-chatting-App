@@ -1,0 +1,46 @@
+style.css
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    
+    /* border: 2px solid green; */
+    margin: 0;
+    background-color: #5151a5;
+}
+
+#chat-container {
+    width: 300px;
+    background: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid red;
+
+}
+
+#messages {
+    list-style: none;
+    padding: 0;
+    max-height: 200px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+}
+
+#message-input, #send-button {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+#send-button {
+    background: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+#send-button:hover {
+    background: #0056b3;
+}
